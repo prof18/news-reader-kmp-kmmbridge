@@ -9,9 +9,6 @@ plugins {
     id("maven-publish")
 }
 
-version = "1.0.0"
-group = "com.example.newsreaderkmp"
-
 kotlin {
     androidTarget {
         compilations.all {
